@@ -26,7 +26,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   runOptional("applyAmountsToDOM", securityPhrase);
   runOptional("updateRebuttalAmounts", securityPhrase);
-  runOptional("generateRebuttalTiers", securityPhrase);
 
   resizeIframe();
   window.addEventListener("resize", resizeIframe);
