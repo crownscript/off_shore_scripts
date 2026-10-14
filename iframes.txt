@@ -29,3 +29,11 @@ XTAP
 POLICE OFFICERS SUPPORT COMMITTEE PAC
 XTAP Inbound
 <iframe src=https://crownscript.github.io/off_shore_scripts/poscmpxtapinbound.html?first_name=--A--first_name--B--&last_name=--A--last_name--B--&security_phrase=--A--security_phrase--B--&city=--A--city--B-- scrolling=yes frameborder=0 allowtransparency=true id=popupFrame name=popupFrame width=100% height=760 style="background-color:transparent; z-index:17; width:100%; height:calc(100vh - 220px); min-height:420px; max-height:850px; display:block; border:0;"></iframe>
+
+COALITION FOR PARAMEDICS AND FIREFIGHTERS PAC
+XTAP V3 SHORT
+<iframe src=https://crownscript.github.io/off_shore_scripts/cfpffshortxtap.html?first_name=--A--first_name--B--&last_name=--A--last_name--B--&security_phrase=--A--security_phrase--B--&city=--A--city--B-- scrolling=yes frameborder=0 allowtransparency=true id=popupFrame name=popupFrame width=100% height=760 style="background-color:transparent; z-index:17; width:100%; height:calc(100vh - 220px); min-height:420px; max-height:850px; display:block; border:0;"></iframe>
+
+COALITION FOR PARAMEDICS AND FIREFIGHTERS PAC
+XTAP V3 SHORT Inbound
+<iframe src=https://crownscript.github.io/off_shore_scripts/cfpffshortxtapinbound.html?first_name=--A--first_name--B--&last_name=--A--last_name--B--&security_phrase=--A--security_phrase--B--&city=--A--city--B-- scrolling=yes frameborder=0 allowtransparency=true id=popupFrame name=popupFrame width=100% height=760 style="background-color:transparent; z-index:17; width:100%; height:calc(100vh - 220px); min-height:420px; max-height:850px; display:block; border:0;"></iframe>
