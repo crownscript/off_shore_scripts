@@ -42,12 +42,12 @@
     let minimumAmount = amounts.minimum;
 
     if (previousAmount >= 50) {
-      level1 = roundToNearestFive(previousAmount);
-      level2 = roundToNearestFive(previousAmount * 0.75);
+      level1 = roundToNearestFive(previousAmount * 0.75);
+      level2 = roundToNearestFive(previousAmount * 0.50);
       minimumAmount = roundToNearestFive(previousAmount * 0.25);
 
-      level1 = Math.max(level1, amounts.minimum);
-      level2 = Math.max(level2, amounts.minimum);
+      level1 = Math.max(level1, amounts.rebuttals.level1, amounts.minimum);
+      level2 = Math.max(level2, amounts.rebuttals.level2, amounts.minimum);
       minimumAmount = Math.max(minimumAmount, amounts.minimum);
     }
 

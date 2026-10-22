@@ -26,11 +26,11 @@
     return Math.round(amount / 5) * 5;
   }
 
-  function calculateDonationTiers(baseAmount) {
+  function calculateDonationTiers(baseAmount, baseTiers) {
     return {
-      bronze: roundToNearestFive(baseAmount * 2),
-      silver: roundToNearestFive(baseAmount * 2.5),
-      gold: roundToNearestFive(baseAmount * 3),
+      bronze: Math.max(roundToNearestFive(baseAmount), baseTiers.bronze),
+      silver: Math.max(roundToNearestFive(baseAmount * 1.5), baseTiers.silver),
+      gold: Math.max(roundToNearestFive(baseAmount * 2), baseTiers.gold),
     };
   }
 
@@ -45,7 +45,7 @@
     const amounts = getAmounts();
     const previousAmount = previousDonationAmount(securityPhrase);
     const tiers = previousAmount >= 50
-      ? calculateDonationTiers(previousAmount)
+      ? calculateDonationTiers(previousAmount, amounts.topLevels)
       : amounts.topLevels;
 
     setText("goldAmount", tiers.gold);
