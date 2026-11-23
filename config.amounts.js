@@ -1,11 +1,11 @@
 window.SCRIPT_AMOUNTS = {
   topLevels: {
-    gold: 100,
-    silver: 75,
-    bronze: 50,
+    gold: 150,
+    silver: 100,
+    bronze: 75,
   },
   rebuttals: {
-    level1: 45,
+    level1: 50,
     level2: 35,
   },
   minimum: 25,
